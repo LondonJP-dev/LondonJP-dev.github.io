@@ -25,9 +25,10 @@ title: LondonJP.dev コミュニティについて
 
 ---
 
-# 第1回 LondonJP.dev ミートアップ
+# 第1回 : LondonJP.dev Tech Talk 2025 Autumn
 
-**日時:** 2025年 秋頃開催予定  
-**場所:** 未定 (ロンドン市内)
+**日時:** 2025/11/14
+**場所:** Artizan Street Library & Community Centre
+**詳細・参加登録:** [イベントページ](https://londonjpdev.connpass.com/event/373707/)
 
 ---
