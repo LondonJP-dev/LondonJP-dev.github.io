@@ -1,6 +1,7 @@
 ---
 layout: default
 title: コミュニティ行動規範
+lang: ja
 ---
 
 # LondonJP.dev コミュニティ行動規範

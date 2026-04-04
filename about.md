@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 運営者紹介
+lang: ja
 ---
 
 ## 運営者

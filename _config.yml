@@ -3,6 +3,8 @@ email: londonjp.dev@gmail.com
 theme: jekyll-theme-cayman
 description: >- # this means to ignore newlines until "baseurl:"
   LondonJP.dev コミュニティのウェブサイトです
+description_en: >-
+  The community website for LondonJP.dev
 
 # 公開設定
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -11,8 +13,4 @@ url: "https://LondonJP-dev.github.io" # the base hostname & protocol for your si
 
 sass:
   style: compressed
-
-collections:
-  articles:
-    output: true
-    permalink: /articles/:name/
+permalink: pretty
