@@ -1,10 +1,10 @@
 ---
 layout: default
 title: About the Community
-permalink: /articles/about-the-community-en.html
+lang: en
 ---
 
-[日本語版はこちら](/articles/about-the-community.html)
+[日本語版はこちら](/articles/about-the-community)
 
 ---
 
@@ -50,3 +50,4 @@ If your company is interested in supporting us, please feel free to get in touch
 We would be delighted to collaborate with you to help strengthen the Japanese engineering community in the UK.
 
 [Sponsorship Application Form](https://forms.gle/3TJpuBGDiYfg2fDeA)
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en-US' }}">
+<html lang="{{ page.lang | default: 'ja' }}">
   <head>
     <meta charset="UTF-8">
     <title>{{ page.title }} | {{ site.title }}</title>
@@ -9,16 +9,40 @@
   <body>
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ site.title }}</h1>
-      <h2 class="project-tagline">{{ site.description }}</h2>
+      {% if page.lang == 'en' %}
+        <h2 class="project-tagline">{{ site.description_en | default: site.description }}</h2>
+      {% else %}
+        <h2 class="project-tagline">{{ site.description }}</h2>
+      {% endif %}
     </header>
 
     <!-- ここからナビゲーション -->
     <nav class="site-nav" style="text-align:center; margin: 20px 0;">
-      <a href="{{ '/' | relative_url }}">ホーム</a> |
-      <a href="{{ '/articles/about-the-community' | relative_url }}">コミュニティについて</a> |
-      <a href="{{ '/code_of_conduct' | relative_url }}">行動規範</a> |
-      <a href="https://forms.gle/a4pDWXvkFKJga9HL8">お問い合わせ</a>
+      {% if page.lang == 'en' %}
+        {% assign prefix = '/en' %}
+        <a href="{{ prefix | append: '/' | relative_url }}">Home</a> |
+        <a href="{{ prefix | append: '/articles/about-the-community' | relative_url }}">About the Community</a> |
+        <a href="{{ prefix | append: '/code_of_conduct' | relative_url }}">Code of Conduct</a> |
+        <a href="https://forms.gle/a4pDWXvkFKJga9HL8">Contact</a>
+      {% else %}
+        {% assign prefix = '' %}
+        <a href="{{ '/' | relative_url }}">ホーム</a> |
+        <a href="{{ '/articles/about-the-community' | relative_url }}">コミュニティについて</a> |
+        <a href="{{ '/code_of_conduct' | relative_url }}">行動規範</a> |
+        <a href="https://forms.gle/a4pDWXvkFKJga9HL8">お問い合わせ</a>
+      {% endif %}
     </nav>
+
+    <!-- Language switcher -->
+    <div style="text-align:center; margin-bottom: 10px;">
+      {% if page.lang == 'en' %}
+        {% assign alt_url = page.url | replace_first: '/en', '' %}
+        <a href="{{ alt_url | relative_url }}">日本語</a> | <span>English</span>
+      {% else %}
+        {% assign alt_url = '/en' | append: page.url %}
+        <span>日本語</span> | <a href="{{ alt_url | relative_url }}">English</a>
+      {% endif %}
+    </div>
     <!-- ここまでナビゲーション -->
 
     <main id="content" class="main-content" role="main">
