@@ -4,7 +4,7 @@ title: About the Community
 lang: en
 ---
 
-[日本語版はこちら](/articles/about-the-community)
+[日本語版はこちら]({{ '/articles/about-the-community' | relative_url }})
 
 ---
 

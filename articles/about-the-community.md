@@ -1,10 +1,9 @@
 ---
 layout: default
 title: コミュニティについて
-permalink: /articles/about-the-community.html
 ---
 
-[English Version](/articles/about-the-community-en.html)
+[English Version]({{ '/en/articles/about-the-community' | relative_url }})
 
 ---
 
