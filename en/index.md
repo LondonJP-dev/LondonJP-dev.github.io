@@ -17,7 +17,7 @@ By participating in this community and any events organized by the community, yo
 We are also looking for additional co-organizers. If you are interested, please contact one of the organizers above.
 
 ## Call for Speakers
-We are preparing our first meetup and looking for speakers. If you are interested in speaking, please get in touch via the form below.
+We are looking for speakers for our meetups. If you are interested in speaking, please get in touch via the form below.
 [Speaker Application Form](https://forms.gle/gsNpZkRLwGXzkBic9)
 
 ## Sponsors
@@ -26,8 +26,17 @@ We are also looking for venue and reception sponsors. Please use the form below 
 
 ---
 
+# 2nd Meetup: LondonJP.dev Meetup 2026 Autumn
+
+- **Date:** 27 November 2026, 18:30–20:30 (UK time)
+- **Location:** Artizan Street Library and Community Centre (online attendance available)
+- **Details and registration:** [Event page](https://londonjpdev.connpass.com/event/409536/)
+
+---
+
 # 1st LondonJP.dev Meetup
 
-Date: Planned for Autumn 2025  
-Location: TBA (in London)
+- **Date:** 14 November 2025
+- **Location:** Artizan Street Library & Community Centre
+- **Details:** [Event page](https://londonjpdev.connpass.com/event/373707/)
 
